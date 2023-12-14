@@ -9,17 +9,17 @@ import React from "react";
 
 export default function Home() {
   return (
-    <main className='w-full h-screen'>
+    <main className='w-full h-full'>
 
     <div className=' my-20 text-9xl font-bold flex flex-col space-y-5 justify-center items-center '>
   <div className='hover:indent-8'>
-    <Link href="/about">i'am</Link>
+    <Link href="/about">i'am. </Link>
   </div>
   <div className='hover:indent-8'>
-    <Link  href="/skills">Skills</Link>
+    <Link  href="/skills">Skills.</Link>
   </div>
   <div className='hover:indent-8'>
-  <Link href="/contact">Contact</Link>
+  <Link href="/contact">Contact.</Link>
   </div>
   <div className="hover:animate-spin ">
   ✨

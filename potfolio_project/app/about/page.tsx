@@ -8,7 +8,7 @@ const ABOUT = () => {
     <div className='w-full h-full flex justify-center items-center bg-white text-black '>
       <div className=''>
         <header>
-          <div className='text-7xl font-bold mt-40 text-cente font-sans hover:font-serif flex justify-center items-center  '>
+          <div className='text-7xl font-bold mt-20 text-cente font-sans hover:font-serif flex justify-center items-center  '>
           <h1>
           Hi, i'm
           </h1>
@@ -16,7 +16,7 @@ const ABOUT = () => {
 
            <div className='text-9xl font-extrabold text-center mt-2 hover:font-serif flex justify-center items-center'>
           <h1>
-           Nneji Obioma
+           Nneji Obioma 
           </h1>
           </div>
 
