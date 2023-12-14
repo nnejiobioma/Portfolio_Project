@@ -3,7 +3,13 @@ import style from './skills.module.css'
 
 const SKILLS = () => {
   return (
-    <div>SKILLS</div>
+    <div>
+      <header>
+        
+      </header>
+
+
+    </div>
 
 
 
