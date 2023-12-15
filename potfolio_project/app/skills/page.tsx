@@ -1,66 +1,69 @@
 import React from 'react'
 import style from './skills.module.css'
-import { FaHtml5, FaCss3Alt, FaGithub, FaPython, FaReact  } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaGithub, FaPython, FaReact,FaFlask  } from "react-icons/fa";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import {  } from "react-icons/fa6";
 import Link from 'next/link'
 import { IoLogoJavascript } from "react-icons/io5";
-import { TbBrandNextjs } from "react-icons/tb";
+import { TbBrandNextjs, TbBrandDjango } from "react-icons/tb";
 
 const SKILLS = () => {
   return (
-    <div className='w-full h-full my-20 flex justify-center items-center bg-black text-white'>
+    <div className='w-full h-full my-40 flex justify-center items-center bg-black text-white'>
       <div>
-        <div className='text-l font-bold text-center my-6 '>
-        <p className='whitespace-normal'>
-          like the saying, good things does not come easily, through
-          <br /> many years of hard work and dedication,
-          <br /> I have been able to learn and use these valuable skills,
-          <br /> that have made me proficient and efficient in what i do.
-          <br /> Such skill as:
-        </p>
-      </div>
+       
       <div className=' grid grid-cols-4 gap-6'>
-      <div className='hover:indent-8 my-10 place-content-around'>
-   <Link href={"https://twitter.com/ojnneji"}>
+      <div className='hover:indent-8 my-10 place-content-around hover:animate-spin '>
+   <Link href={"https://developer.mozilla.org/en-US/docs/Web/HTML"}>
      <FaHtml5 size={100} />
 </Link>
  </div>
- <div className='hover:indent-8 my-10'>
- <Link href={"https://www.facebook.com/onneji/"}>
+ <div className='hover:indent-8 my-10 hover:animate-spin'>
+ <Link href={"https://docs.github.com/en/"}>
      <FaGithub size={100} />
 </Link>
  </div>
- <div className='hover:indent-8 my-10'>
- <Link href={"https://www.instagram.com/ojnneji/"}>
+ <div className='hover:indent-8 my-10 hover:animate-spin'>
+ <Link href={"https://developer.mozilla.org/en-US/docs/Web/CSS"}>
      <FaCss3Alt size={100} />
 </Link>
  </div>
- <div className='hover:indent-8 my-10'>
- <Link href={"https://wa.me/message/6SMPLULSD2PPL1"}>
+ <div className='hover:indent-8 my-10 hover:animate-spin'>
+ <Link href={"https://v2.tailwindcss.com/docs"}>
      <BiLogoTailwindCss size={100} />
 </Link>
  </div>
- <div className='hover:indent-8 my-10'>
- <Link href={"/"}>
+ <div className='hover:indent-8 my-10 hover:animate-spin'>
+ <Link href={"https://developer.mozilla.org/en-US/docs/Web/JavaScript"}>
      <IoLogoJavascript size={100} />
 </Link>
  </div>
- <div className='hover:indent-8 my-10'>
- <Link href={"https://github.com/nnejiobioma"}>
+ <div className='hover:indent-8 my-10 hover:animate-spin'>
+ <Link href={"https://docs.python.org/3/"}>
      <FaPython size={100} />
 </Link>
  </div>
- <div className='hover:indent-8 my-10'>
- <Link href={"https://www.linkedin.com/in/nneji-obioma"}>
+ <div className='hover:indent-8 my-10 hover:animate-spin'>
+ <Link href={"https://react.dev/"}>
      <FaReact size={100} />
 </Link>
  </div>
- <div className='hover:indent-8 my-10'>
- <Link href={"https://www.linkedin.com/in/nneji-obioma"}>
+ <div className='hover:indent-8 my-10 hover:animate-spin'>
+ <Link href={"https://nextjs.org/docs"}>
      <TbBrandNextjs size={100} />
 </Link>
  </div>
+ <div className='hover:indent-8 my-10 hover:animate-spin'>
+ <Link href={"https://nextjs.org/docs"}>
+     <TbBrandDjango size={100} />
+</Link>
+ </div>
+ <div className='hover:indent-8 my-10 hover:animate-spin'>
+ <Link href={"https://nextjs.org/docs"}>
+     <FaFlask size={100} />
+</Link>
+ </div>
+
  </div>
  
  </div>

@@ -26,8 +26,8 @@ export default function Home() {
   </div>
   </div>
 
-  <div className='flex justify-center items-center text-2xl font-bold'>
-    <h1>
+  <div className='flex justify-center items-center text-2xl font-bold '>
+    <h1 className=''>
       Let's Code it!
     </h1>
   </div>
