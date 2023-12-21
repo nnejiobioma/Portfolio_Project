@@ -40,6 +40,7 @@ const ABOUT = () => {
           
           </div>
 
+{/* comment section */}
           <div className='text-l font-bold text-center my-6 ' >
           <p className='whitespace-normal'>
           ⁋ One of the many blessing in life is the power of imagination. 
