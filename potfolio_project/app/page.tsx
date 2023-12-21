@@ -4,6 +4,7 @@ import contact from './contact/page'
 import skills from './skills/page'
 import Link from 'next/link'
 import React from "react"; 
+import projects from './projects/page'
 
   
 
@@ -11,7 +12,7 @@ export default function Home() {
   return (
     <main className='w-full h-full'>
 
-    <div className=' my-20 text-9xl font-bold flex flex-col space-y-5 justify-center items-center '>
+    <div className=' my-20 text-8xl font-bold flex flex-col space-y-5 justify-center items-center '>
   <div className='hover:indent-8'>
     <Link href="/about">i'am. </Link>
   </div>
@@ -20,6 +21,9 @@ export default function Home() {
   </div>
   <div className='hover:indent-8'>
   <Link href="/contact">Contact.</Link>
+  </div>
+  <div className='hover:indent-8'>
+  <Link href="/projects">Projects.</Link>
   </div>
   <div className="hover:animate-spin ">
   ✨
