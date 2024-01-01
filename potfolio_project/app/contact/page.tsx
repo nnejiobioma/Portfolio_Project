@@ -2,14 +2,27 @@ import React from 'react'
 import Link from 'next/link'
 import style from './contact.module.css'
 import { BsTwitterX } from "react-icons/bs";
+import ContactForm from '@/components/ContactForm'
 import { FaFacebookF, FaInstagram, FaWhatsapp, FaYoutube, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const CONTACT = () => {
   return (
-    <div className='w-full h-full flex justify-center items-center my-40'>
-    <div className='grid grid-cols-3 gap-10'>
-       
-   {/* link creation */}
+
+    <div className=' w-full h-full'>
+
+{/* Contact form */}
+<div className='p-20 max-w-3xl mx-auto'>
+ <h1 className='text-3xl font-bold'>Contact Us</h1>
+ <p> Please fill the form</p>
+
+ <ContactForm />
+</div>
+
+{/* --------------------------------------------------------------------------------- */}
+
+     {/* link creation */}
+    <div className='grid-cols-3 gap-10 flex justify-center items-center my-5'> 
+   
   <div className='hover:indent-8 my-10 hover:animate-spin'>
    <Link href={"https://twitter.com/ojnneji"}>
      <BsTwitterX size={80} />
@@ -45,11 +58,14 @@ const CONTACT = () => {
      <FaLinkedin size={80} />
 </Link>
  </div>
+
+ 
  
  </div>
-   
-    </div>
-    
+</div>
+
+
+
   )
 }
 
