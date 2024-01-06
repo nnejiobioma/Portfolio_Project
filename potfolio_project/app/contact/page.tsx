@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import style from './contact.module.css'
+import style from './Contact.module.css'
 import { BsTwitterX } from "react-icons/bs";
 import ContactForm from '@/components/ContactForm'
 import { FaFacebookF, FaInstagram, FaWhatsapp, FaYoutube, FaGithub, FaLinkedin } from "react-icons/fa";

@@ -68,7 +68,7 @@ export default function ContactForm() {
         </div>
 
         <div>
-          <label htmlFor="message">Your Message</label>
+          <label htmlFor="message">How may I help you</label>
           <textarea
             onChange={(e) => setMessage(e.target.value)}
             value={message}

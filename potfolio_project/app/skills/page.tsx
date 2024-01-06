@@ -9,7 +9,7 @@ import { TbBrandNextjs, TbBrandDjango } from "react-icons/tb";
 
 const SKILLS = () => {
   return (
-    <div className='w-full h-full my-40 flex justify-center items-center bg-black text-white'>
+    <div className='w-full h-full my-40 flex justify-center items-centergrid-cols-3 gap-10'>
       <div>
        
       <div className=' grid grid-cols-4 gap-6'>
