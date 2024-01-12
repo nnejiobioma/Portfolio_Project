@@ -4,7 +4,7 @@ import contact from './contact/page'
 import skills from './skills/page'
 import Link from 'next/link'
 import React from "react"; 
-import projects from './projects/page'
+import login from './login/page'
 
   
 
@@ -23,7 +23,7 @@ export default function Home() {
   <Link href="/contact">Contact.</Link>
   </div>
   <div className='hover:indent-8'>
-  <Link href="/projects">Projects.</Link>
+  <Link href="/login">Login.</Link>
   </div>
   <div className="hover:animate-spin ">
   ✨
